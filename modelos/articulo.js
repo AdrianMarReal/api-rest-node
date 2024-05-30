@@ -5,16 +5,12 @@ const ArticuloSchema = Schema({
     type: String,
     required: true,
   },
-  contneido: {
+  contenido: {
     type: String,
     required: true,
   },
   fecha: {
     type: String,
-    required: false,
-  },
-  titulo: {
-    type: Date,
     default: Date.now,
   },
   imagen: {
